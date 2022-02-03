@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Select e DataList</title>
+  <meta charset="utf-8" />
+  <form accept-charset="utf-8"></form>
+</head>
+<body>
+
+Nessa formatação o Select não permite a digitação.
+No DataList é possível escrever o início da palavra como forma de pesquisa. <br />
+    <form>
+        Qual a sua parte preferida da introdução?
+        <select>
+            <option value="html">HTML 5</option>
+            <option value="css">CSS 3</option>
+            <option value="js">JavaScript</option>
+          </select> <br />
+
+          Qual o seu navegador?
+          <input list="browsers" name="browser">
+          <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+    </form>
+
+</body>
+</html>
