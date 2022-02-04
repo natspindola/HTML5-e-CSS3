@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dialog</title>
+  <meta charset="utf-8" />
+  <form accept-charset="utf-8"></form>
+</head>
+<body>
+    Essa formatação cria uma caixa de diálogo. <br />
+    <dialog open> Dados salvos com sucesso.</dialog>
+
+    <dialog open id="favDialog">
+        <form method="dialog">
+          <section>
+            <p><label for="favAnimal">Animal favorito:</label>
+            <select id="favAnimal">
+              <option></option>
+              <option>Gato</option>
+              <option>Cachorro</option>
+              <option>Passáro</option>
+            </select></p>
+          </section>
+          <menu>
+            <button id="cancel" type="reset">Cancela</button>
+            <button type="submit">Confirma</button>
+          </menu>
+        </form>
+    </dialog>
+    
+</body>
+</html>
