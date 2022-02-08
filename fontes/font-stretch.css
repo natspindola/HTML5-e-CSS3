@@ -1,0 +1,19 @@
+.ex1 {
+    font-family: arial;
+    font-stretch: ultra-condensed
+}
+
+.ex2 {
+    font-family: arial;
+    font-stretch: condensed;
+}
+
+.ex3 {
+    font-family: arial;
+    font-stretch: extra-expanded;
+}
+
+.ex4 {
+    font-family: arial;
+    font-stretch: expanded;
+}
