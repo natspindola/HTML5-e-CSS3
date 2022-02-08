@@ -1,0 +1,14 @@
+.ex1 {
+    font-family: "Times New Roman", Tahoma, arial;
+    font-style: italic;
+}
+
+.ex2 {
+    font-family: "Times New Roman", Tahoma, arial;
+    font-style: normal;
+}
+
+.ex3 {
+    font-family: "Times New Roman", Tahoma, arial;
+    font-style: oblique;
+}
