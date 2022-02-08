@@ -1,0 +1,18 @@
+h4 {
+    background-color: blueviolet;
+    width: 800px;
+    font-size: 25px;
+}
+
+div {
+    background-color: chartreuse;
+    width: 89%;
+    font-size: 120%;
+}
+
+h5 {
+    background-color: magenta;
+    display: inline-block;
+    width: calc((100% / 3) - 2px);
+    border: 1px solid black;
+}
