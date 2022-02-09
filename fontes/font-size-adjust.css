@@ -1,0 +1,19 @@
+.ex1 {
+    font: 15px verdana;
+    font-size-adjust:0.545;
+}
+
+.ex2 {
+    font: 18px verdana;
+    font-size-adjust: 0.8;
+}
+
+.ex3 {
+    font: 20px verdana;
+    font-size-adjust:0.545;
+}
+
+.ex4 {
+    font: 22px verdana;
+    font-size-adjust: 43;
+}
