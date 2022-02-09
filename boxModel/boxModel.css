@@ -1,0 +1,29 @@
+h1 {
+    color: #ffffff;
+    background-color: #264968;
+    width: 400px;
+    margin: 10px;
+    padding: 15px;
+    border: 5px solid #cecece;
+}
+
+h2 {
+    color: #ffffff;
+    background-color: #264968;
+    width: 400px;
+    margin: 10px 20px 30px 40px;
+    padding: 15px 30px 45px 60px;
+    border: solid 5px #cecece;
+}
+
+h3 {
+    color: #ffffff;
+    background-color: #264968;
+    width: 400px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 15px 30px 45px 60px;
+    border: solid 5px #cecece;
+}
