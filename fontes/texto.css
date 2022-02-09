@@ -1,0 +1,27 @@
+.ex1 {
+        color: blue;
+}
+
+.ex2 {
+    text-indent: 20px;
+}
+
+.ex3 {
+    text-align: right;
+}
+
+.ex4 {
+    text-align: center;
+}
+
+.ex5 {
+    text-align: justify;
+}
+
+.ex6 {
+    text-decoration: line-through;
+}
+
+.ex7 {
+    text-decoration: underline;
+}
