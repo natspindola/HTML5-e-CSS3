@@ -1,0 +1,23 @@
+.ex1 {
+    position: static;
+    right: 0;
+    bottom: 10px;
+}
+
+.ex2 {
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    top: 0;
+}
+
+.ex3 {
+    position: relative;
+    left: 20%;
+}
+
+.ex4 {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
