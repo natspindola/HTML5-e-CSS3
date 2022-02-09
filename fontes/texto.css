@@ -25,3 +25,15 @@
 .ex7 {
     text-decoration: underline;
 }
+
+.ex8 {
+    text-transform: uppercase;
+}
+
+.ex9 {
+    text-transform: capitalize;
+}
+
+.ex10 {
+    text-shadow: 2px 2px 5px #FF0000;
+}
