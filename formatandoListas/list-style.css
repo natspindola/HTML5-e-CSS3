@@ -1,0 +1,9 @@
+.ex1 {
+    list-style: position imagem;
+    list-style: inside url("https://d2v0x26thbzlwf.cloudfront.net/prod/5/arquivos/seta.gif");
+}
+
+.ex2 {
+    list-style: position type;
+    list-style: inside circle;
+}
