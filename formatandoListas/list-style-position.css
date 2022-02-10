@@ -1,0 +1,7 @@
+ul{
+    list-style-position: inside;
+  }
+
+.ex {
+    list-style-position: outside;
+  }
