@@ -1,0 +1,19 @@
+.ex1 {
+    list-style-type: decimal;
+}
+
+.ex2 {
+    list-style-type: lower-roman;
+}
+
+.ex3 {
+    list-style-type: upper-roman;
+}
+
+.ex4 {
+    list-style-type: lower-alpha;
+}
+
+.ex5 {
+    list-style-type: upper-alpha;
+}
