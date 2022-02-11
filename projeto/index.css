@@ -45,7 +45,7 @@ form {
     padding: 10px;
     margin-right: 50px;
     position: relative;
-    bottom: 70px;
+    bottom: 300px;
 }
 
 .mostrar-formulario {
@@ -109,14 +109,16 @@ button {
 }
 
 .paragrafo-meio {
+    background-color: black;
     font-size: 18px;
     color: #FFFFFF;
     text-align: center;
+    margin: 0 auto;
     padding: 20px 50px 50px 50px;
 }
 
 .caixa-inferior {
-    background-image: url("drinks.jpg");
+    background-image: url("barman.jpg");
     height: 100vh;
     background-size: cover;
 }
@@ -129,9 +131,11 @@ button {
 }
 
 .paragrafo-inferior {
+    background-color: black;
     font-size: 18px;
     color: #FFFFFF;
     text-align: center;
+    margin: 0 auto;
     padding: 20px 50px 50px 50px;
 }
 
