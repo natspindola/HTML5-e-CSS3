@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css" />
+  <title>Trem na Web</title>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="caixa-superior">
+    <nav class="cabeçalho">
+      <h2 class="titulo-cabeçalho">TremNaWeb</h2>
+      <a href="#titulo-meio" class="link-cabeçalho">O Local</a>
+      <a href="#titulo-inferior" class="link-cabeçalho">Nossos Drinks</a>
+      <a class="link-cabeçalho" onclick="chamaFomulario()">Contatos</a>
+      <a class="link-cabeçalho" href="https://google.com" target="_blank">Whatsapp</a>
+    </nav>
+
+    <h1>Trem na Web</h1>
+
+    <form id="formulario-contato" action="https://formsubmit.co/natspindola@hotmail.com" method="POST">
+      <h3 class="titulo-form">Faça sua reserva:</h3>
+
+      <label>
+        Nome
+        <input type="text" name="nome" placeholder="Digite seu nome" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" placeholder="Digite seu email" required />
+      </label>
+
+      <label>
+        Telefone
+        <input type="telefone" name="telefone" placeholder="Digite seu telefone/WhatsApp" required />
+      </label>
+
+      <label>
+        Fale conosco
+        <textarea name="info" placeholder="Quantidade de pessoas na mesa, especifique as crianças."></textarea>
+      </label>
+
+      <button type="submit">Enviar</button>
+
+    </form>
+  </div>
+
+  <div class="caixa-meio">
+    <h2 id="titulo-meio">O lugar</h2>
+    <p class="paragrafo-meio">Um trem antigo que rodou o mundo agora estaciona em Brasília
+      Um pub revolucionário para os amantes de antiguidades, viagens, comida boa e cerveja gelada.
+    </p>
+  </div>
+
+
+  <div class="caixa-inferior">
+    <h2 id="titulo-inferior">Nossos Drinks</h2>
+    <p class="paragrafo-inferior">Assim como o trem, nossos mestres rodaram o mundo procurando o que há de mais sofisticado para os nossos clientes.
+      Aqui você poderá apreciar diversos drinks e cervejas.
+    </p>
+  </div>
+
+  <footer class="rodape">©Trem na Web</footer>
+
+</body>
+
+<script>
+
+  let formulario = document.getElementById("formulario-contato")
+
+  function chamaFomulario() {
+    formulario.className = "mostrar-formulario"
+  }
+
+</script>
+
+</html>
