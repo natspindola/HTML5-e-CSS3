@@ -1,0 +1,4 @@
+table, td, tr, th{
+    border: 1px solid black;
+    empty-cells: hide;
+}
