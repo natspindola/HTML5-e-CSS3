@@ -12,13 +12,17 @@
   <div class="caixa-superior">
     <nav class="cabeçalho">
       <h2 class="titulo-cabeçalho">TremNaWeb</h2>
-      <a href="#titulo-meio" class="link-cabeçalho">O Local</a>
+      <a href="#titulo-meio" class="link-cabeçalho">O Lugar</a>
       <a href="#titulo-inferior" class="link-cabeçalho">Nossos Drinks</a>
-      <a class="link-cabeçalho" onclick="chamaFomulario()">Contatos</a>
+      <a href="#titulo-final" class="link-cabeçalho">Mais informações</a>
+      <a class="link-cabeçalho" onclick="chamaFomulario()">Faça sua reserva</a>
       <a class="link-cabeçalho" href="https://google.com" target="_blank">Whatsapp</a>
     </nav>
 
-    <h1>Trem na Web</h1>
+    
+    <div class="logo">
+      <img src="logo.png" alt="logo" width=600 height=200>
+    </div>
 
     <form id="formulario-contato" action="https://formsubmit.co/natspindola@hotmail.com" method="POST">
       <h3 class="titulo-form">Faça sua reserva:</h3>
@@ -58,9 +62,41 @@
 
   <div class="caixa-inferior">
     <h2 id="titulo-inferior">Nossos Drinks</h2>
-    <p class="paragrafo-inferior">Assim como o trem, nossos mestres rodaram o mundo procurando o que há de mais gostoso e sofisticado para os nossos clientes.
+    <div class="drink"></div>
+    <p class="paragrafo-inferior">Assim como o trem, nossos mestres rodaram o mundo procurando o que há de mais gostoso
+      e sofisticado para os nossos clientes.
       Aqui você poderá apreciar diversos drinks e cervejas.
     </p>
+  </div>
+
+
+  <div class="caixa-final">
+    <h2 id="titulo-final">Mais informações</h2>
+    <div class="card">
+      <h3 class="titulo-card">Contato</h3>
+      <ul>
+        <li>(XX) XXXX-XXXX</li>
+        <li>tremnaweb@example.com</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3 class="titulo-card">Endereço</h3>
+      <ul>
+        <li>Avenida central, 001</li>
+        <li>Brasília - DF</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3 class="titulo-card">Horário de funcionamento</h3>
+      <ul>
+        <li>Domingo a quinta</li>
+        <p>17:00 - 00:00</p>
+        <li>Sextas, sábados e feriados</li>
+        <p>16:00 - 04:00</p>
+      </ul>
+    </div>
   </div>
 
   <footer class="rodape">©Trem na Web</footer>

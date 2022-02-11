@@ -1,6 +1,6 @@
 .caixa-superior {
-    background-image: url("capa.jpg");
-    height: 90vh;
+    background-image: url("beers.jpg");
+    height: 100vh;
     background-size: cover;
 }
 
@@ -10,20 +10,23 @@
 }
 
 .titulo-cabeçalho {
-    font-size: 50px;
-    color: gold;
+    font-size: 20px;
+    color: black;
     display: inline;
     font-family: 'Monoton', cursive;
+    text-shadow: 2px 2px 5px rgb(92, 92, 231);
+
 }
 
 .link-cabeçalho {
     font-size: 20px;
-    color:gold;
+    color: black;
     display: inline;
     margin-left: 40px;
     cursor: pointer;
     text-decoration: none;
-    text-shadow: 2px 2px 5px gold;
+    text-shadow: 2px 2px 5px rgb(92, 92, 231);
+    font-weight: 900;
 }
 
 h1 {
@@ -45,7 +48,7 @@ form {
     padding: 10px;
     margin-right: 50px;
     position: relative;
-    bottom: 300px;
+    bottom: 250px;
 }
 
 .mostrar-formulario {
@@ -106,6 +109,8 @@ button {
     font-size: 40px;
     text-align: center;
     padding-top: 50px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
 }
 
 .paragrafo-meio {
@@ -115,6 +120,7 @@ button {
     text-align: center;
     margin: 0 auto;
     padding: 20px 50px 50px 50px;
+    display: flex;
 }
 
 .caixa-inferior {
@@ -128,6 +134,8 @@ button {
     font-size: 40px;
     text-align: center;
     padding-top: 50px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
 }
 
 .paragrafo-inferior {
@@ -137,6 +145,41 @@ button {
     text-align: center;
     margin: 0 auto;
     padding: 20px 50px 50px 50px;
+    display: flex
+}
+
+.caixa-final {
+    display: flex;
+    text-align: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.card {
+    width: 700px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    list-style-type: none;
+}
+
+.titulo-card {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
 }
 
 .rodape {
