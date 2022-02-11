@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seletores</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="seletoresUsados.css" />
+</head>
+<body>
+    <table>
+        <thead>
+          <tr>
+            <th>Seletor</th>
+            <th>Exemplo</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>sel, sel</td>
+            <td>div, #minhaLista</td>
+            <td>Seleciona todas as divs e o elemento com id=“minhaLista”. A vírgula serve para listarmos os elementos que queremos selecionar</td>
+          </tr>
+          <tr>
+            <td>sel sel</td>
+            <td>div p</td>
+            <td>Seleciona todos os elementos < p > que estejam dentro do elemento< div >.</td>
+          </tr>
+          <tr>
+            <td>sel > sel</td>
+            <td>div > p</td>
+            <td>Seleciona todos os elementos < p > que o pai seja < div >. Nesse caso é obrigatório o < p > ser filho direto da < div >.</td>
+          </tr>
+          <tr>
+            <td>sel + sel</td>
+            <td>div + p</td>
+            <td>Seleciona todos os elementos < p > que são precedidos por uma tag < div > </ div> </td>
+          </tr>
+          <tr>
+            <td>sel ~ sel</td>
+            <td>div ~ p</td>
+            <td>Seleciona todos os elementos < p > que são precedidos por uma tag < div> </ div></td>
+          </tr>
+          <tr>
+            <td>[atributo]</td>
+            <td>[readonly]</td>
+            <td>Seleciona todos os elementos que contém o atributo readonly</td>
+          </tr>
+          <tr>
+            <td>[atributo=valor]</td>
+            <td>[type=text]</td>
+            <td>Seleciona todos os elementos que contém o atributo igual ao valor especificado</td>
+          </tr>
+          <tr>
+            <td>:active</td>
+            <td>a:active</td>
+            <td>Seleciona a tag < a > que esteja ativa</td>
+          </tr>
+          <tr>
+            <td>:checked</td>
+            <td>input:checked</td>
+            <td>Seleciona todos os elementos < input > que estejam checados</td>
+          </tr>
+          <tr>
+            <td>:disabled</td>
+            <td>input:disabled</td>
+            <td>Seleciona todo < input > que esteja desabilitado</td>
+          </tr>
+          <tr>
+            <td>:empty</td>
+            <td>p:empty</td>
+            <td>Seleciona todo < p > que não tem filhos ou texto</td>
+          </tr>
+          <tr>
+            <td>:enabled</td>
+            <td>input:enabled</td>
+            <td>Seleciona todo < input > que esteja habilitado</td>
+          </tr>
+          <tr>
+            <td>:first-child</td>
+            <td>p:first-child</td>
+            <td>Seleciona a tag < p > caso ela seja o primeiro filho da tag pai</td>
+          </tr>
+          <tr>
+            <td>:first-of-type</td>
+            <td>p:first-of-type</td>
+            <td>Seleciona todo < p > que seja o primeiro < p > de seu pai</td>
+          </tr>
+          <tr>
+            <td>:focus</td>
+            <td>a:hover</td>
+            <td>Seleciona o elemento < a > em que o cursor do mouse está em cima</td>
+          </tr>
+          <tr>
+            <td>:last-child</td>
+            <td>p:last-child</td>
+            <td>Seleciona a tag < p > que seja a última filha de seu pai</td>
+          </tr>
+          <tr>
+            <td>:last-of-type</td>
+            <td>p:last-of-type</td>
+            <td>Seleciona todo < p > que seja o último < p > de seu pai</td>
+          </tr>
+          <tr>
+            <td>:link</td>
+            <td>a:link</td>
+            <td>Seleciona todo link que não foi visitado ainda</td>
+          </tr>
+          <tr>
+            <td>:not(sel)</td>
+            <td>:not(p)</td>
+            <td>Seleciona todos os elementos que não sejam < p ></td>
+          </tr>
+          <tr>
+            <td>:nth-child(n)</td>
+            <td>p:nth-child(2)</td>
+            <td>Seleciona todo < p > que seja o segundo filho de seu pai.</td>
+          </tr>
+          <tr>
+            <td>:nth-last-child(n)</td>
+            <td>p:nth-last-child(2)</td>
+            <td>Seleciona todo < p > que seja o penúltimo filho de seu pai</td>
+          </tr>
+          <tr>
+            <td>:nth-last-of-type(n)</td>
+            <td>p:nth-last-of-type(2)</td>
+            <td>Seleciona todo < p > que seja o penúltimo < p > de seu pai</td>
+          </tr>
+          <tr>
+            <td>:nth-of-type(n)</td>
+            <td>p:nth-of-type(2)</td>
+            <td>Seleciona todo < p > que seja o segundo < p > de seu pai</td>
+          </tr>
+          <tr>
+            <td>:only-of-type</td>
+            <td>p:only-of-type</td>
+            <td>Seleciona todo < p > se ele for o único < p > de seu pai</td>
+          </tr>
+          <tr>
+            <td>:only-child</td>
+            <td>p:only-child</td>
+            <td>Seleciona todo < p > que seja o único filho de seu pai</td>
+          </tr>
+          <tr>
+            <td>:visited</td>
+            <td>a:visited</td>
+            <td>Seleciona todos os links que já foram visitados</td>
+          </tr>
+
+        </tbody>
+      </table>
+      OBS: sel = seletor
+
+</body>
+</html>
